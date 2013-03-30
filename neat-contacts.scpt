@@ -12,7 +12,7 @@
 -- 3) Delete all Homepages for people that start with "fb://"
 
 -- How to use it:
--- 1) Backup your Contacts! File > Export > Contacts Archive...
+-- 1) BACKUP YOUR CONTACTS! File > Export > Contacts Archive...
 -- 2) Figure out for which people you want to make the change.
 --    You can leave it as it is to change everyone, or you can
 --    do it for a specific person (maybe to just try it out).
@@ -31,7 +31,7 @@ tell application "Contacts"
 	set peopleToChange to people
 	
 	-- Only do a specific person (uncomment this below):
-	set peopleToChange to people whose (first name) contains "Nate" and (last name) contains "Aune"
+	-- set peopleToChange to people whose (first name) contains "John" and (last name) contains "Smith"
 	
 	-- For all people that match:
 	repeat with thisPerson in peopleToChange
